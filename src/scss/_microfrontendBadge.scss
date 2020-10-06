@@ -1,0 +1,86 @@
+#header>nav {
+    &:after {
+        content: "";
+        width: 50px;
+        top: 8px;
+        border-radius: 10px;
+        border: 1px solid #569f35;
+        right: 50%;
+        z-index: 1111;
+        background: #e7e1e1;
+        position: absolute;
+        height: 50px;
+        background-image: url(./logos/vue.png);
+        background-size: contain;
+    }
+}
+
+#form-app>div:first-child {
+    &:after {
+        content: "";
+        width: 50px;
+        top: -23px;
+        border-radius: 10px;
+        border: 1px solid #569f35;
+        right: 47%;
+        z-index: 1111;
+        background: #e7e1e1;
+        position: absolute;
+        height: 50px;
+        background-image: url(./logos/vue.png);
+        background-size: contain;
+    }
+}
+
+#list-app>div:first-child {
+    &:after {
+        content: "";
+        width: 50px;
+        top: -23px;
+        border-radius: 10px;
+        border: 1px solid #66dddb;
+        right: 47%;
+        z-index: 1111;
+        background: #e7e1e1;
+        position: absolute;
+        height: 50px;
+        background-image: url(./logos/react.png);
+        background-size: contain;
+    }
+}
+
+#layoutSidenav_nav>nav {
+    &:after {
+        content: "";
+        width: 50px;
+        top: 5px;
+        border-radius: 10px;
+        border: 1px solid #66dddb;
+        right: 40%;
+        z-index: 1111;
+        background: #e7e1e1;
+        position: absolute;
+        height: 50px;
+        background-image: url(./logos/react.png);
+        background-size: contain;
+    }
+}
+
+#table-app .card:first-child {
+    position: relative;
+
+    &:after {
+        content: "";
+        width: 50px;
+        top: -23px;
+        border-radius: 10px;
+        border: 1px solid #933b3b;
+        right: 40%;
+        z-index: 1111;
+        background: #e7e1e1;
+        position: absolute;
+        height: 50px;
+        background-image: url(./logos/angular.png);
+        background-size: contain;
+    }
+}
